@@ -1,2 +1,2 @@
-# hlk
-HRK: Http Logshipper for Kubernetes
+# HLK
+HLK: Http Logshipper for Kubernetes

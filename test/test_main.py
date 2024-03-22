@@ -5,7 +5,9 @@ import requests
 class TestLogShipperServer(unittest.TestCase):
     def test_get_logs(self):
         # 仮にサーバーが localhost の 8080 ポートで実行されているとします
-        response = requests.get('http://192.168.10.113:8080')
+        #response = requests.get('http://192.168.10.113:8080')
+        #response = requests.get('http://localhost:8081')
+        response = requests.get('http://192.168.100.203:30042')
         
         # ステータスコードが 200 であることを確認
         self.assertEqual(response.status_code, 200)
